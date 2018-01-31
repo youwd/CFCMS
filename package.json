@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 4328",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
@@ -21,8 +21,19 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "@nebular/auth": "^2.0.0-rc.4",
+    "@nebular/theme": "^2.0.0-rc.4",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0",
+    "bootstrap": "^4.0.0",
     "core-js": "^2.4.1",
+    "font-awesome": "^4.7.0",
+    "ionicons": "^3.0.0",
+    "nebular-icons": "^1.0.6",
+    "pace-js": "^1.0.2",
+    "roboto-fontface": "^0.8.0",
     "rxjs": "^5.5.6",
+    "tinymce": "^4.7.6",
+    "typeface-exo": "0.0.54",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
