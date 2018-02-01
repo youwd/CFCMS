@@ -8,151 +8,88 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
-    title: 'FEATURES',
-    group: true,
-  },
-  {
-    title: 'UI Features',
+    title: '资源汇聚',
     icon: 'nb-keypad',
     link: '/pages/ui-features',
     children: [
       {
-        title: 'Buttons',
+        title: '资源注册',
         link: '/pages/ui-features/buttons',
       },
       {
-        title: 'Grid',
+        title: '访问控制',
         link: '/pages/ui-features/grid',
       },
       {
-        title: 'Icons',
+        title: '日志监听',
         link: '/pages/ui-features/icons',
-      },
-      {
-        title: 'Modals',
-        link: '/pages/ui-features/modals',
-      },
-      {
-        title: 'Typography',
-        link: '/pages/ui-features/typography',
-      },
-      {
-        title: 'Animated Searches',
-        link: '/pages/ui-features/search-fields',
-      },
-      {
-        title: 'Tabs',
-        link: '/pages/ui-features/tabs',
       },
     ],
   },
   {
-    title: 'Forms',
+    title: '资源管理',
     icon: 'nb-compose',
     children: [
       {
-        title: 'Form Inputs',
+        title: '元数据管理',
         link: '/pages/forms/inputs',
       },
       {
-        title: 'Form Layouts',
+        title: '资源状态',
         link: '/pages/forms/layouts',
       },
+      {
+        title: '资源目录',
+        link: '/pages/forms/layouts',
+      }
     ],
   },
   {
-    title: 'Components',
+    title: '资源共享',
     icon: 'nb-gear',
     children: [
       {
-        title: 'Tree',
+        title: '服务发布',
         link: '/pages/components/tree',
       }, {
-        title: 'Notifications',
+        title: '服务检索',
         link: '/pages/components/notifications',
-      },
+      },{
+        title: '服务共享',
+        link: '/pages/components/notifications',
+      }
     ],
   },
   {
-    title: 'Maps',
+    title: '维护管理',
     icon: 'nb-location',
     children: [
       {
-        title: 'Google Maps',
+        title: '用户管理',
         link: '/pages/maps/gmaps',
       },
       {
-        title: 'Leaflet Maps',
+        title: '数据字典',
         link: '/pages/maps/leaflet',
-      },
-      {
-        title: 'Bubble Maps',
-        link: '/pages/maps/bubble',
-      },
+      }
     ],
   },
   {
-    title: 'Charts',
+    title: '运行管理',
     icon: 'nb-bar-chart',
     children: [
       {
-        title: 'Echarts',
+        title: '请求方监控',
         link: '/pages/charts/echarts',
       },
       {
-        title: 'Charts.js',
+        title: '使用方监控',
         link: '/pages/charts/chartjs',
       },
       {
-        title: 'D3',
+        title: '服务器监控',
         link: '/pages/charts/d3',
       },
     ],
-  },
-  {
-    title: 'Editors',
-    icon: 'nb-title',
-    children: [
-      {
-        title: 'TinyMCE',
-        link: '/pages/editors/tinymce',
-      },
-      {
-        title: 'CKEditor',
-        link: '/pages/editors/ckeditor',
-      },
-    ],
-  },
-  {
-    title: 'Tables',
-    icon: 'nb-tables',
-    children: [
-      {
-        title: 'Smart Table',
-        link: '/pages/tables/smart-table',
-      },
-    ],
-  },
-  {
-    title: 'Auth',
-    icon: 'nb-locked',
-    children: [
-      {
-        title: 'Login',
-        link: '/auth/login',
-      },
-      {
-        title: 'Register',
-        link: '/auth/register',
-      },
-      {
-        title: 'Request Password',
-        link: '/auth/request-password',
-      },
-      {
-        title: 'Reset Password',
-        link: '/auth/reset-password',
-      },
-    ],
-  },
+  }
 ];

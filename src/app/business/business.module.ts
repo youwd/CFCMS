@@ -16,7 +16,7 @@ const PAGES_COMPONENTS = [
 		DashboardModule,
 	],
 	declarations: [
-		BusinessComponent,
+		...PAGES_COMPONENTS,
 	],
 })
 export class BusinessModule {
