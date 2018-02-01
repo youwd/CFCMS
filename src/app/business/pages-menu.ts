@@ -10,19 +10,18 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: '资源汇聚',
     icon: 'nb-grid-a-outline',
-    link: '/business/respooling',
     children: [
       {
         title: '资源注册',
-        link: '/business/respooling/resregister/',
+        link: '/business/respooling/resregister',
       },
       {
         title: '访问控制',
-        link: '/pages/ui-features/grid',
+        link: '/business/respooling/accesscontrol',
       },
       {
         title: '日志监听',
-        link: '/pages/ui-features/icons',
+        link: '/business/respooling/logmonitor',
       },
     ],
   },
@@ -32,15 +31,15 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: '元数据管理',
-        link: '/pages/forms/inputs',
+        link: '/business/resmanage/datamanage',
       },
       {
         title: '资源状态',
-        link: '/pages/forms/layouts',
+        link: '/business/resmanage/rescatalog',
       },
       {
         title: '资源目录',
-        link: '/pages/forms/layouts',
+        link: '/business/resmanage/resstatus',
       }
     ],
   },
@@ -50,13 +49,13 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: '服务发布',
-        link: '/pages/components/tree',
+        link: '/business/resshare/serpublish',
       }, {
         title: '服务检索',
-        link: '/pages/components/notifications',
+        link: '/business/resshare/sersearch',
       }, {
         title: '服务共享',
-        link: '/pages/components/notifications',
+        link: '/business/resshare/sershare',
       }
     ],
   },
@@ -66,11 +65,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: '用户管理',
-        link: '/pages/maps/gmaps',
+        link: '/business/sysmanage/usermanage',
       },
       {
         title: '数据字典',
-        link: '/pages/maps/leaflet',
+        link: '/business/sysmanage/datadict',
       }
     ],
   },
@@ -80,15 +79,15 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: '请求方监控',
-        link: '/pages/charts/echarts',
+        link: '/business/oprmanage/requester',
       },
       {
         title: '使用方监控',
-        link: '/pages/charts/chartjs',
+        link: '/business/oprmanage/user',
       },
       {
         title: '服务器监控',
-        link: '/pages/charts/d3',
+        link: '/business/oprmanage/server',
       },
     ],
   }

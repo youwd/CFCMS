@@ -4,19 +4,20 @@ import { ResPoolingComponent } from './ResPooling.component';
 
 import { ResPoolingRouting } from './ResPooling.routing';
 import { ResRegisterModule } from './ResRegister/ResRegister.module';
+import { AccessControlModule } from './AccessControl/AccessControl.module';
+import { LogMonitorModule } from './LogMonitor/LogMonitor.module';
 
-const components = [
-  ResPoolingComponent
-];
 
 @NgModule({
   imports: [
     CommonModule,
+    ResPoolingRouting,
     ResRegisterModule,
-    ResPoolingRouting
+    AccessControlModule,
+    LogMonitorModule
   ],
   declarations: [
-    ...components
+    ResPoolingComponent
   ]
 })
 export class ResPoolingModule { }

@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DashboardComponent } from './Dashboard.component';
+import { UserManageComponent } from './UserManage.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [DashboardComponent]
+  declarations: [UserManageComponent]
 })
-export class DashboardModule { }
+export class UserManageModule { }

@@ -6,9 +6,6 @@ import { ResRegisterComponent } from './ResRegister.component';
   imports: [
     CommonModule
   ],
-  declarations: [ResRegisterComponent],
-  exports:[
-    ResRegisterComponent
-  ]
+  declarations: [ResRegisterComponent]
 })
 export class ResRegisterModule { }

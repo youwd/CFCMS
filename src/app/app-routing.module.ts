@@ -22,7 +22,7 @@ const routes: Routes = [
     ],
   },
   { path: '', redirectTo: 'business', pathMatch: 'full' },
-  // { path: '**', redirectTo: 'business' },
+  { path: '**', redirectTo: 'business' },
 ];
 
 const config: ExtraOptions = {
