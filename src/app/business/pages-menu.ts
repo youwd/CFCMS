@@ -2,19 +2,19 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: 'Dashboard',
+    title: 'dashboard',
     icon: 'nb-home',
-    link: '/pages/dashboard',
+    link: '/business/dashboard',
     home: true,
   },
   {
     title: '资源汇聚',
-    icon: 'nb-keypad',
-    link: '/pages/ui-features',
+    icon: 'nb-grid-a-outline',
+    link: '/business/respooling',
     children: [
       {
         title: '资源注册',
-        link: '/pages/ui-features/buttons',
+        link: '/business/respooling/resregister/',
       },
       {
         title: '访问控制',
@@ -46,7 +46,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   {
     title: '资源共享',
-    icon: 'nb-gear',
+    icon: 'nb-location',
     children: [
       {
         title: '服务发布',
@@ -54,7 +54,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       }, {
         title: '服务检索',
         link: '/pages/components/notifications',
-      },{
+      }, {
         title: '服务共享',
         link: '/pages/components/notifications',
       }
@@ -62,7 +62,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   {
     title: '维护管理',
-    icon: 'nb-location',
+    icon: 'nb-gear',
     children: [
       {
         title: '用户管理',

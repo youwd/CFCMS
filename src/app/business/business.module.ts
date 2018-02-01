@@ -1,22 +1,20 @@
 import { NgModule } from '@angular/core';
 
 import { BusinessComponent } from './business.component';
-import { DashboardModule } from './dashboard/dashboard.module';
 import { BusinessRoutingModule } from './business.routing.module';
+import { DashboardModule } from './dashboard/dashboard.module';
 import { ThemeModule } from '../cityfun/shared/theme/theme.module';
 
-const PAGES_COMPONENTS = [
-	BusinessComponent,
-];
+
 
 @NgModule({
 	imports: [
 		BusinessRoutingModule,
 		ThemeModule,
-		DashboardModule,
+		DashboardModule
 	],
 	declarations: [
-		...PAGES_COMPONENTS,
+		BusinessComponent,
 	],
 })
 export class BusinessModule {

@@ -3,19 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { BusinessComponent } from './business.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-
 const routes: Routes = [{
   path: '',
   component: BusinessComponent,
-  children: [{
-    path: 'dashboard',
-    component: DashboardComponent,
-  },
-  {
-    path: '',
-    redirectTo: 'dashboard',
-    pathMatch: 'full',
-  }],
+  children: [
+    {
+      path: 'dashboard',
+      component: DashboardComponent,
+    },
+    {
+      path: '',
+      redirectTo: 'dashboard',
+      pathMatch: 'full',
+    },
+    {
+      path: 'respooling',
+      loadChildren: './ResPooling/ResPooling.module#ResPoolingModule',
+    }
+  ],
 }];
 
 @NgModule({
